@@ -1,0 +1,89 @@
+.group-child,
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 570px;
+}
+.group-child {
+  background-color: var(--color-gainsboro);
+  width: 363px;
+}
+.rectangle {
+  background: linear-gradient(90deg, #9400d3, indigo);
+  width: 373px;
+}
+.clica-no-boto {
+  margin: 0;
+  position: absolute;
+  top: 334px;
+  left: 52px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 373px;
+  height: 570px;
+}
+.sophia {
+  margin: 0;
+  position: absolute;
+  top: 44px;
+  left: 104px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 21px;
+  width: 202px;
+  height: 46px;
+}
+.chamar-sophia {
+  text-decoration: none;
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 401px;
+  left: 79px;
+  width: 202px;
+  height: 46px;
+}
+.wrapper {
+  position: absolute;
+  top: 136px;
+  left: 66px;
+  border-radius: 10px;
+  background-color: var(--color-gainsboro);
+  width: 229px;
+  height: 172px;
+}
+.group-parent {
+  position: relative;
+  width: 100%;
+  height: 570px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #000;
+  font-family: var(--font-inter);
+}
