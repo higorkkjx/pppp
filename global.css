@@ -1,7 +1,14 @@
+/* index.css */
+
 body {
   margin: 0;
   line-height: normal;
+  background: linear-gradient(90deg, #9400d3, indigo);
+  overflow: hidden; /* Impede que a barra de rolagem apareça quando a tela for pequena */
 }
+
+/* Restante do seu CSS permanece o mesmo */
+
 
 :root {
   /* fonts */
